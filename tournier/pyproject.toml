@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tournier"
+version = "0.1.0"
+description = "Tournament for chess engine"
+authors = ["Цвиркунов Михаил <tsvirkunov@profilum.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-chess = "^1.0.0"
+tqdm = "^4.66.4"
+redis = "^5.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

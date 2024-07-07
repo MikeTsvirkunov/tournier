@@ -1,0 +1,6 @@
+{
+    "engines": [
+        "rofChadeAVX2",
+        "stockfish-ubuntu-x86-64-avx2"
+    ]
+}
