@@ -6,6 +6,7 @@ RUN tar -xvf stockfish-ubuntu-x86-64-avx2.tar
 RUN mv ./stockfish/stockfish-ubuntu-x86-64-avx2 ./
 RUN wget https://rofchade.nl/wp-content/uploads/2023/10/wnn_rofChadeLin3.1.zip
 RUN unzip ./wnn_rofChadeLin3.1.zip
+RUN find ./ -type d -exec chmod 755 {}
 RUN chmod 777 rofChadeSSE2
 
 FROM python:3.11 AS poetry-init
